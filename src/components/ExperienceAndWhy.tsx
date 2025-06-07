@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Authentic Adventure",
-  description: "Engage in activities like kayaking, snowshoeing, and mountaineering, led by seasoned guides passionate about the polar region",
+  title: "Polar Expertise Since 1993",
+  description: "Pioneers in polar cruising, offering wildlife-rich expeditions to Antarctica and the Arctic.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Expert-Led Journeys",
-  description: "Benefit from the knowledge of onboard specialists, including marine biologists and historians, who enrich your understanding of these unique environments.",
+  title: "Flexible Expedition Itineraries",
+  description: "Trips adapt to weather and wildlife, maximizing nature encounters and scenic access.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Sustainable Exploration",
-  description: "ECommitted to environmental stewardship, Oceanwide Expeditions partners with organizations like IAATO and AECO to promote responsible tourism",
+  title: "Adventure Activities Included",
+  description: "Kayaking, mountaineering, snowshoeing, and photography workshops available at no extra cost.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Curated Itineraries",
-  description: "Experience the best of the polar regions with thoughtfully designed itineraries that prioritize wildlife encounters, cultural immersion, and breathtaking landscapes.",
+  title: "Scientific Expedition Staff",
+  description: "Led by polar researchers, naturalists, and glaciologists sharing real-time expertise.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Oceanwide Expeditions Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
